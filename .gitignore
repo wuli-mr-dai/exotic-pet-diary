@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.log
+build_err.txt
+build_full_output.txt
+build_log.txt
+build_log2.txt
+build_output.txt
+build_result.txt
+.DS_Store
+*.local

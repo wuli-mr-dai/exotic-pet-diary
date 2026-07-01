@@ -1,0 +1,33 @@
+// ========== SCSS 变量（供全局 @use 注入） ==========
+
+// 主题色
+$primary-color: #4CAF50;
+$warning-color: #FF9800;
+$danger-color: #F44336;
+$text-color: #333333;
+$text-color-2: #666666;
+$bg-color: #f5f5f5;
+$border-color: #ebedf0;
+$white: #ffffff;
+
+// 圆角
+$border-radius-sm: 8px;
+$border-radius-md: 12px;
+$border-radius-lg: 16px;
+
+// 间距
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 12px;
+$spacing-lg: 16px;
+$spacing-xl: 20px;
+
+// 字体
+$font-size-sm: 12px;
+$font-size-base: 14px;
+$font-size-md: 16px;
+$font-size-lg: 18px;
+$font-size-xl: 20px;
+
+// 底部安全区
+$safe-area-bottom: env(safe-area-inset-bottom, 0px);
