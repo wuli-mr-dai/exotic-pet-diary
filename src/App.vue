@@ -30,6 +30,7 @@ const showTabBar = computed(() => {
 </template>
 
 <style lang="scss">
+@import url('./attest/style/reset.scss');
 .app-container {
   min-height: 100vh;
   background: var(--van-background-2);
