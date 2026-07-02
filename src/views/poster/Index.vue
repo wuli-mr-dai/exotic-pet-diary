@@ -1,6 +1,6 @@
 <template>
   <div class="poster-page">
-    <van-nav-bar title="成长海报" left-arrow fixed placeholder @click-left="goBack" />
+    <van-nav-bar title="成长海报" left-arrow fixed placeholder @click-left="goBack" class="tab-bar" />
     <van-empty v-if="!pet" description="宠物不存在" />
 
     <template v-else>

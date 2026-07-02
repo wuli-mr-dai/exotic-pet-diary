@@ -184,11 +184,6 @@ function formatDate(d: string) {
   padding-bottom: 50px;
 }
 
-.tab-bar {
-  position: sticky;
-  z-index:999;
-}
-
 .pet-select-bar {
   padding: 8px 12px;
   background: #fff;
